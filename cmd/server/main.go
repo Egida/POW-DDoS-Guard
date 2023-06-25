@@ -5,8 +5,8 @@ import (
 	"flag"
 	"log"
 
-	"github.com/Goganad/pow_ddos_guard/handler"
 	"github.com/Goganad/pow_ddos_guard/internal/async"
+	"github.com/Goganad/pow_ddos_guard/internal/handler"
 	"github.com/Goganad/pow_ddos_guard/internal/tcp"
 )
 
