@@ -18,10 +18,6 @@ type Hashcash struct {
 	randomGenerator random.Generator
 }
 
-type Performer struct {
-	hashFunc func() hash.Hash
-}
-
 func New(cfg Config) *Hashcash {
 	hashBitsCount := cfg.HashFunc().Size() * 8
 	// shift to locate first difficulty zeros
